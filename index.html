@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Cristhian Nicho</title>
+    <link rel="icon" type="image/x-icon" href="assets/Lupa-icono.ico">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="rectangulo">
+        <div class="header" style="background-color: rgb(96, 172, 198);">
+            <p style="padding-bottom: 10px; font-size: 30px; text-align: center;">
+                <span style="font-size: 50px; padding-top: 0px; font-family: 'Tahoma';">Cristhian Jesús Ricardo Nicho Bruno <br> </span>
+            </p>
+        </div>
+        <div class="container">
+            <div class="column">
+                <img src="assets\VALIOSO NO TOCAR.jpg" alt="Foto de perfil">
+            </div>
+
+            <div class="column">
+                <p style="font-size: 30px; text-align: center;">
+                    Estudiante de Ingeniería de Tecnologías de Información y Sistemas
+                    ESAN <br>
+                </p>
+                <p id="p1" class="highlight"; style=" font-size: 25px; text-align:justify; padding-top: 100px; padding-left: 20px; padding-right: 20px;">
+                    Busco aprender acerca de las diferentes tecnologías y formas de trabajo que existen
+                    dentro del mundo informático.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="filas">
+        <div class="fila">
+            <div class="fil-col1">
+                <div class="imagen-col" ; style="padding-left: 20%;">
+                    <img class="img-col2" src="assets\placeholder.png" alt="placeholder">
+                </div>
+            </div>
+            <div class="fil-col2">
+                Me he inclinado a formarme respecto a las tecnologías de predicción, análisis y procesamiento de datos
+                en empresas para la toma de decisiones, por lo que me gustaría poder encontrar alguna oportunidad laboral
+                relacionada a ello pronto.
+            </div>
+        </div>
+        <div class="fila">
+            <div class="fil-col3">
+                Una meta a mayor plazo que tengo es la de poder formarme para ejercer la actuaría, ya que desde antes de
+                iniciar la universidad tuve testimonios de las labores de profesionales en el campo, y me paració una
+                alternativa muy atractiva como trabajo a futuro.
+            </div>
+            <div class="fil-col1">
+                <div class="imagen-col" ; style="padding-left: 20%;">
+                    <img class="img-col2" src="assets\placeholder.png" alt="placeholder">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- tabs -->
+    <div class="contenedor">
+        <ul class="ul">
+            <li class="li activo">Computer Vision</li>
+            <li class="li">Data Analytics</li>
+            <li class="li">Task Automatization</li>
+            <li class="li">Database Design</li>
+            <li class="li">Robótica</li>
+            <li class="li">App Design</li>
+        </ul>
+
+        <div class="subcontenedor">
+            <div class="bloque activo">Esta es una de las pocas formas de IA que considero impactantes, el hecho de poder
+                entrenar a un algoritmo para el reconocimiento de cualquier objeto es sinceramente increíble. Está lleno
+                de aplicaciones en una cantidad diversa de campos, como medicina, industria, transporte u otros.</div>
+            <div class="bloque">Junto a la visión por computadora, son las únicas 2 formas de aplicación de la IA que me parecen realmente útiles
+                en el mundo real. Poder predecir datos y el comportamiento del mercado gracias a información previamente obtenida
+                es una herramienta muy poderosa para cualquier empresa.</div>
+            <div class="bloque">Tener la capacidad de crear un programa o un que permita realizar ciertas acciones de manera automática es 
+                algo que me fascina mucho por alguna razón desconocida. Ya sea utilizando macros o algún servicio de automatización
+                propiamente dicho, ahorrar ese tiempo y el mismo proceso de crear la herramienta automatizadora es algo que disfruto mucho.</div>
+            <div class="bloque">Desarrollar y limpiar bases de datos es una de mis tareas favoritas en el backend de una aplicación o sistema,
+                poder organizar los datos evitando redundancia y errores me parece una parte fundamental de cualquier proyecto
+                que busque ser exitoso.</div>
+            <div class="bloque">Diseñar y programar robots o mecanismos para cumplir tareas tan diversas como las puedas imaginar es uno de mis sueños
+                desde niño. Poder crearlos y verlos funcionar ahora de grande es algo que me causa mucha ilusión. Además, la
+                parte del ensamblado y conexión de componentes es de las más entretenidas para mí.</div>
+            <div class="bloque">Poder traer a la realidad diseños de aplicaciones para distintas compañías o proyectos varios es de las formas
+                más creativas de desarrollo dentro del ámbito de la informática. Es por eso que me agrada tanto poder
+                diseñar interfaces, experiencias y funcionalidades para estas.</div>
+        </div>
+    </div>
+    <div class="contenedor-proyectos">
+        <div class="carrusel-proy">
+            <div class="slider">
+                <section class="slide" style="background-image: url('assets/IPv4.jpg');"><a href="https://github.com/lirav-esan/redesFinal" class="slide-text">Calculadora de IPs</a></section>
+                <section class="slide" style="background-image: url('assets/huertos.jpg');"><a href="https://github.com/Deci86/pvzproyecto" class="slide-text">Asistente para Huertos con IA</a></section>
+            </div>
+            <div class="controles">
+                <span class="arrow left"><i class="material-symbols-outlined">arrow_circle_left</i></span>
+                <span class="arrow right"><i class="material-symbols-outlined">arrow_circle_right</i></span>
+                <ul>
+                    <li class="selected"></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-intereses">
+        <div class="col1-int">
+            <div class="music-text">
+                text
+            </div>
+            <audio src="audio" id="audio"></audio>
+            <div class="music-player">
+                <h1 class="music-name">song one</h1>
+                <p class="artist-name">artist</p>
+                <div class="disc"></div>
+                <div class="song-slider">
+                    <input type="range" value="0" class="seek-bar">
+                    <span class="current-time">00:00</span>
+                    <span class="song-duration">00:00</span>
+                </div>
+                <div class="controls">
+                    <button class="btn backwards-btn">
+                        <img src="assets\atras.png" alt="atras">
+                    </button>
+                    <button class="play-btn pause">
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn forwards-btn">
+                        <img src="assets\adelante.png" alt="adelante">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col2-int">
+            <div class="games">
+                games
+            </div>
+            <div class="improv">
+                improv
+            </div>
+        </div>
+    </div>
+</body>
+</html>
